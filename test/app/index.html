@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/style.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <a class="logo header__logo-mobile" href="#">
+            <img class="logo__img" src="./images/logo.svg" alt="our logo" />
+          </a>
+          <input type="checkbox" id="burger">
+          <label for="burger"></label>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__link"
+                ><a href="#" class="menu__item header__link">Главная</a></li>
+              <li class="menu__link main-menu submenu">
+                <div class="menu__item submenu__header header__link menu__item-arrow">
+                  Основное меню
+                </div>
+                <ul class="submenu__container">
+                  <li class="submenu__item submenu__drop-arrow">
+                    <img class="submenu__drop-image" src="./images/drop-arrow.svg" alt="drop-arrow">
+                  </li>
+                  <li class="submenu__item" >
+                    <a class="submenu__link" href="#">Заказать вёрстку</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a class="submenu__link" href="#">Отправить макет на проверку</a>
+                  </li>
+                  
+                  <li class="submenu__item">
+                    <a class="submenu__link" href="#">Хочу работать у вас</a>
+                  </li>
+                  <li class="submenu__item sub-submenu">
+                    <div class="submenu__link submenu__item-arrow">Есть предложение по работе с кл...</div>
+                    <ul class="sub-submenu__container">
+                      <li class="sub-submenu__item submenu__drop-arrow submenu__drop-arrow-rotated">
+                        <img class="submenu__drop-image" src="./images/drop-arrow.svg" alt="drop-arrow">
+                      </li>
+                      <li class="sub-submenu__item"><a class="sub-submenu__link" href="#">
+                        У меня есть оффер
+                      </a></li>
+                      <li class="sub-submenu__item"><a class="sub-submenu__link" href="#">
+                        Сделать партнёром
+                      </a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <div class="menu__link"
+                ><a href="#" class="menu__item header__link">Наши сервисы</a></div>
+              <div class="menu__link"
+                ><a href="#" class="menu__item header__link">Контакты</a></div
+              >
+            </ul>
+            <div class="menu__overlay"></div>
+          </nav>
+          <a href="tel:+13212223333" class="phone header__phone header__phone-mobile header__link">
+            <img
+              class="phone__img menu__phone-icon"
+              src="images/phone.svg"
+              alt="phone picture"
+            />
+            <div class="menu__phone phone__item menu__phone-number">
+              +1 (321) 222 - 33 -33
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__screen"></div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+For run after installation run command "GULP"
